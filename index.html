@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="p-4 mt-5">
+            <h1>Bookmarker</h1>
+        </div>
+        <div class="line"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-center">
+                    <div class="data-input text-center p-5 mt-3">
+                        <h4>Bookmark your favorite sites</h4>
+                        <div class="form-group mt-5 ">
+                            <p>Site Name</p>
+                            <input class="" type="text" id="siteNameInput" placeholder="Bookmark Name">
+
+                            <div id="siteNameAlert" class="d-none alert alert-danger">
+                                <p>Please Enter Name the Webstie</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p>Site URL</p>
+                            <input class="" type="text" id="siteUrlInput" placeholder="Website URL">
+
+                            <div id="siteUrlAlert" class="d-none alert alert-danger">
+                                <p>Please Enter Url the Webstie and should start with http://</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-info" onclick="add()" id="submit">submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" id="dataShow">
+
+
+        </div>
+        <div class="line mt-4"></div>
+        <div class="Bookmark p-3">
+            <p>© 2020 Bookmarker Inc</p>
+        </div>
+
+
+
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

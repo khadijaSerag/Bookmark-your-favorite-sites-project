@@ -1,0 +1,62 @@
+body {
+    font-family: arial;
+}
+
+h1 {
+    color: #aaa;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.line {
+    height: 1px;
+    width: 1100px;
+    background-color: #aaa;
+}
+
+.data-input {
+    background-color: #eeeeee;
+    width: 95%;
+}
+
+.data-input input {
+    width: 90%;
+    height: 26px;
+    border: none;
+    border-radius: 5px;
+}
+
+.data-input h4, .data-input p {
+    font-weight: 600;
+    /* font-size: 26px; */
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.well {
+    background-image: linear-gradient(#EEE,#FFF);
+}
+.well h3 {
+    font-weight: 700;
+}
+.well a{
+    text-decoration: none;
+    color: white;
+}
+.Bookmark p{
+    font-size: 16px;
+    color: #aaa;
+}
+
+#siteNameAlert,#siteUrlAlert{
+    width: 90%;
+    height: 50px;
+    text-align: left; 
+    margin-left: 45px; 
+    border-radius: 10px; 
+}
+#siteNameAlert p,#siteUrlAlert p{
+    font-size: 14px;
+}
